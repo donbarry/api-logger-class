@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>My form - Formoid form html</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="blurBg-false" style="background-color:#EBEBEB">
+
+
+
+<!-- Start Formoid form-->
+<link rel="stylesheet" href="formoid_files/formoid1/formoid-metro-cyan.css" type="text/css" />
+<script type="text/javascript" src="formoid_files/formoid1/jquery.min.js"></script>
+<form class="formoid-metro-cyan" style="background-color:#FFFFFF;font-size:14px;font-family:'Open Sans','Helvetica Neue','Helvetica',Arial,Verdana,sans-serif;color:#666666;max-width:480px;min-width:150px" method="post"><div class="title"><h2>My form</h2></div>
+	<div class="element-input"><label class="title">Input Text</label><input class="large" type="text" name="input" /></div>
+	<div class="element-multiple"><label class="title">Multiple select</label><div class="large"><select data-no-selected="Nothing selected" name="multiple[]" multiple="multiple" >
+
+		<option value="option 1">option 1</option>
+		<option value="option 2">option 2</option>
+		<option value="option 3">option 3</option></select></div></div>
+	<div class="element-textarea"><label class="title">Text Area</label><textarea class="medium" name="textarea" cols="20" rows="5" ></textarea></div>
+	<div class="element-recaptcha"><label class="title">reCAPTCHA</label><script type="text/javascript">var RecaptchaOptions = {theme : "clean"};</script>
+<script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LdBBv0SAAAAAOLtUjhIQ8uXGw1bTIfUofcO64Y_&theme=clean"></script>
+<noscript><iframe src="http://www.google.com/recaptcha/api/noscript?k=6LdBBv0SAAAAAOLtUjhIQ8uXGw1bTIfUofcO64Y_&hl=en" height="300" width="500" frameborder="0"></iframe></br>
+<textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea><input type="hidden" name="recaptcha_response_field" value="manual_challenge"></noscript>
+<script type="text/javascript">if (/#invalidcaptcha$/.test(window.location)) (document.getElementById("recaptcha_widget_div")).className += " error"</script></div>
+<div class="submit"><input type="submit" value="Submit"/></div></form><p class="frmd"><a href="http://formoid.com/v28.php">form html</a> Formoid.com 2.8</p><script type="text/javascript" src="formoid_files/formoid1/formoid-metro-cyan.js"></script>
+<!-- Stop Formoid form-->
+
+
+
+</body>
+</html>
